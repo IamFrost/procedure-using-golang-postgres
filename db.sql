@@ -7,7 +7,6 @@ CREATE TABLE tbl
 	powervalue int
 );
 
-
 CREATE PROCEDURE drop_then_insert_data(a integer, b integer)
 LANGUAGE SQL
 AS $$
